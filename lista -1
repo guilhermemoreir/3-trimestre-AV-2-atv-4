@@ -1,0 +1,57 @@
+let numeros = [10, 20, 5, 30, 40];
+let posicao = numeros.indexOf(5);
+console.log(posicao);  // 2
+
+let nomes = ["Ana", "Beatriz", "Carlos"];
+let contemCarlos = nomes.includes("Carlos");
+console.log(contemCarlos);  // true
+
+let frutas = ["maçã", "banana", "laranja"];
+frutas.forEach(fruta => console.log(fruta));
+
+let numero = [5, 10, 15, 20];
+let posica = numero.indexOf(15);
+console.log(posica);  // 2
+
+let cores = ["azul", "verde", "vermelho"];
+let contemAmarelo = cores.includes("amarelo");
+console.log(contemAmarelo);  // false
+  
+let linguagens = ["JavaScript", "Python", "Java"];
+linguagens.forEach(linguagem => console.log(linguagem));
+
+let animais = ["gato", "cachorro", "pássaro", "cachorro"];
+let indiceCachorro = animais.indexOf("cachorro");
+console.log(indiceCachorro);  // 1
+
+let fruta = ["maçã", "banana", "uva"];
+let contemLaranja = fruta.includes("laranja");
+console.log(contemLaranja);  // false
+
+let numer = [1, 2, 3, 4];
+let soma = numer.reduce((acc, num) => acc + num, 0);
+console.log(soma);  // 10
+
+let frut= ["banana", "maçã", "laranja"];
+let contemMorango = frut.includes("morango");
+console.log(contemMorango);  // false
+
+let lingua = ["JavaScript", "Python", "Java"];
+let posicaoPython = lingua.indexOf("Python");
+console.log(posicaoPython);  // 1
+  
+let nume = [2, 4, 6];
+let multiplicados = nume.map(num => num * 2);
+console.log(multiplicados);  // [4, 8, 12]
+
+let esportes = ["futebol", "basquete", "natação"];
+let contemBeisebol = esportes.includes("beisebol");
+console.log(contemBeisebol);  // false
+
+let fru = ["maçã", "banana", "laranja"];
+let quantidadeFrutas = fru.length;
+console.log(quantidadeFrutas);  // 3
+  
+let core = ["azul", "verde", "vermelho", "amarelo"];
+let posicaoVermelho = core.indexOf("vermelho");
+console.log(posicaoVermelho);  // 2
