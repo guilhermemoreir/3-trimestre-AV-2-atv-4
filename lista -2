@@ -1,0 +1,73 @@
+
+const ingredientes = ["leite", "açúcar", "pão", "manteiga"];
+const indicePao = ingredientes.indexOf("pão");
+console.log( indicePao);
+
+
+const numeros = [5, 10, 15, 20];
+const contem25 = numeros.includes(25);
+console.log( contem25);
+
+
+const valores = [3, 6, 9, 12];
+const mediaValores = valores.reduce((acc, val) => acc + val, 0) / valores.length;
+console.log( mediaValores);
+
+
+const paises = ["Brasil", "Argentina", "Chile"];
+const contemUruguai = paises.includes("Uruguai");
+console.log( contemUruguai);
+
+
+const letras = ["a", "b", "a", "c", "a"];
+const quantidadeA = letras.filter(letra => letra === "a").length;
+console.log( quantidadeA);
+
+
+const cores = ["azul", "verde", "preto", "amarelo"];
+const indicePreto = cores.indexOf("preto");
+console.log( indicePreto);
+
+const bebidas = ["chá", "suco", "água"];
+const contemCafe = bebidas.includes("café");
+console.log( contemCafe);
+
+
+const numero = [10, 5, 30, 15];
+const maiorNumero = Math.max(...numero); // Correto
+console.log( maiorNumero); // Resultado esperado: 30
+
+
+
+const ultimoA = letras.lastIndexOf("a");
+console.log(ultimoA);
+
+
+const dias = ["segunda", "terça", "quarta", "quinta"];
+const contemSexta = dias.includes("sexta");
+console.log(contemSexta);
+
+
+const palavras = ["sol", "lua", "estrela"];
+const concatenado = palavras.join('');
+console.log(concatenado);
+
+
+const tecnologias = ["JavaScript", "CSS", "HTML", "Python"];
+const indiceHTML = tecnologias.indexOf("HTML");
+console.log(indiceHTML);
+
+
+const animais = ["gato", "cachorro", "pássaro"];
+const contemPeixe = animais.includes("peixe");
+console.log(contemPeixe);
+
+
+const numerosParaProduto = [1, 2, 3, 4];
+const produtoNumeros = numerosParaProduto.reduce((acc, val) => acc * val, 1); // Correção: multiplicação
+console.log( produtoNumeros); // Resultado esperado: 24
+
+
+
+const Verde = cores.indexOf("verde");
+console.log(Verde);
